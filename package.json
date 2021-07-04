@@ -17,6 +17,13 @@
   "keywords": [],
   "author": "TechiePi",
   "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "jest": "^27.0.4",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
   "bugs": {
     "url": "https://github.com/Techie-Pi/js-library-template/issues"
   },
