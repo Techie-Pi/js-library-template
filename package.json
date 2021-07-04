@@ -1,0 +1,27 @@
+{
+  "name": "js-library-template",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "build": "webpack build"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Techie-Pi/js-library-template.git"
+  },
+  "keywords": [],
+  "author": "TechiePi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Techie-Pi/js-library-template/issues"
+  },
+  "homepage": "https://github.com/Techie-Pi/js-library-template#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+}
