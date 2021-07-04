@@ -3,5 +3,7 @@ const library = require("./");
 test("helloWorld", () => {
     console.log = jest.fn();
     
-    expect(console.log.mock.calls[0][0]).toBe("Hello World!");
+    library.helloWorld();
+    
+    expect(console.log).toHaveBeenCalledWith("Hello World!");
 })
